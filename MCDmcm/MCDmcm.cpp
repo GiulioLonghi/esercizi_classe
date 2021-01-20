@@ -40,12 +40,11 @@ int mcd (int a, int b)
 int mcm (int a, int b)
 {
     int mcm;
-    int i = 1;
     int max_ab = (a>b)?a:b;
-    for (int i = max_ab*i; i > 0; i++)
+    for (int i = 1; i > 0; i++)
     {
-        if (a%i==0 && b%i==0){
-            mcm = i;
+        if ((max_ab*i)%a==0 && (max_ab*i)%b==0){
+            mcm = max_ab*i;
             i = 0;
         }
     }
