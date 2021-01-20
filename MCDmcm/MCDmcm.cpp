@@ -39,13 +39,14 @@ int mcd (int a, int b)
 
 int mcm (int a, int b)
 {
-    int mcm;
+    int mcm, multiplo;
     int max_ab = (a>b)?a:b;
-    for (int i = 1; i > 0; i++)
+    for (int i = 1; i != 0; i++)
     {
-        if ((max_ab*i)%a==0 && (max_ab*i)%b==0){
-            mcm = max_ab*i;
-            i = 0;
+        multiplo = max_ab*i;
+        if (multiplo%a==0 && multiplo%b==0){
+            mcm = multiplo;
+            break;
         }
     }
     return mcm;
