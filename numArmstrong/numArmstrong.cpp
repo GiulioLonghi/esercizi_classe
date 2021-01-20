@@ -10,7 +10,6 @@ bool isArmstrong (int num, int len);
 
 int main (int argc, char* argv [])
 {
-    int n;
     if (argc != 2){
         cout << "Wrong number of arguments" << endl;
         return -1; //return 0 (vedi che succede)
