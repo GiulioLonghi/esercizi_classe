@@ -1,9 +1,6 @@
-/*
-sostituire elementi array
-*/
 //OK
 #include <iostream>
-#include <stdlib.h>
+#include <cstdlib>
 
 using namespace std;
 

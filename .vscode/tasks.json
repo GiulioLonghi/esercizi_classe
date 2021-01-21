@@ -51,7 +51,7 @@
         {
             "type": "shell",
             "label": "RUN",
-            "command": "./main.exe",
+            "command": "./main.exe 3",
             "options": {
                 "cwd": "${relativeFileDirname}"
             },

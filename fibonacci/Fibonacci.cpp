@@ -24,7 +24,7 @@ int main (int argc, const char * argv [])
     cout << fRicorsivo (x) <<endl;
 
     //metodo iterativo
-    cout << fIterativo (x) <<endl;
+    //cout << fIterativo (x) <<endl;
     
     cout << endl;
     
